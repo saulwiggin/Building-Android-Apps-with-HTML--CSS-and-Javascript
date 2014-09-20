@@ -4,18 +4,16 @@
 
 <title> My Awesome Page </title>
 
+<script type="text/javascript" src="jquery"></script>
 <script type="text/javascript" charset="utf-8">
 	function sayHello() {
-		document.getElementById('foo').innerHTML = 'Hi there!';
+		$('#foo).text('Hi there!');
 	}
 </script>
-
 <link rel="stylesheet" href="screen.css" type="text/css" />
-
 </head>
 
 <body>
-
 <h1 id="foo" onclick="sayHello()"> Click me! </h1>
 <p>Thanks for visiting my web page. </p>
 <p> I <em>really</em> hope you like it. </p>
